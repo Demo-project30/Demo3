@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'echo "finished"'
+               build 'DemoOrg/Demo1/demo1Child1'
             }
         }
     }
